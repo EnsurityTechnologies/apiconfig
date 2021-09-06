@@ -102,7 +102,7 @@ func CreateAPIConfig(fileName string, keyStr string, config []byte) error {
 	if err != nil {
 		return err
 	}
-	_, err = fp.Write(data)
+	_, err = fp.WriteString(string(data))
 	if err != nil {
 		return err
 	}

@@ -17,9 +17,12 @@ func main() {
 		}
 		key = os.Args[3]
 	} else {
-		if len(os.Args) != 3 {
+		if len(os.Args) < 3 || len(os.Args) > 4{
 			fmt.Printf("Invalid Arguments")
 			return
+		}
+		if len(os.Args) == 4 {
+			key = os.Args[3]
 		}
 	}
 
