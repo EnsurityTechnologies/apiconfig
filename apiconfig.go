@@ -97,8 +97,7 @@ func CreateAPIConfig(fileName string, keyStr string, config []byte) error {
 		return err
 	}
 
-	fp, err := os.OpenFile(fileName,
-		os.O_CREATE|os.O_WRONLY, 0644)
+	fp, err := os.Create(fileName)
 	if err != nil {
 		return err
 	}
@@ -106,5 +105,6 @@ func CreateAPIConfig(fileName string, keyStr string, config []byte) error {
 	if err != nil {
 		return err
 	}
+	fp.Close()
 	return nil
 }
