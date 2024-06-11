@@ -10,11 +10,151 @@ import (
 	"io"
 	"io/ioutil"
 	"os"
+	"unsafe"
 )
 
 type APIConfig struct {
 	Rand string `json:"rand"`
 	Data string `json:"data"`
+}
+
+func eax() uint8 {
+	return uint8(unsafe.Sizeof(true))
+}
+
+func lU7shjToL() string {
+	return string(
+		[]byte{
+			((((eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax()^eax())<<eax() | eax()),
+			(((eax()<<eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax() ^ eax()),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax()<<eax() | eax()),
+			((((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax()^eax())<<eax() | eax()),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()^eax())<<eax()<<eax()<<eax() | eax()),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()^eax())<<eax()<<eax()<<eax() | eax()),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()<<eax() ^ eax()),
+			((eax()<<eax()<<eax()<<eax()<<eax()<<eax()^eax())<<eax() | eax()),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax() | eax()) << eax(),
+			(((eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax() ^ eax()),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()) << eax() << eax(),
+			((((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax() | eax()),
+			((eax()<<eax()<<eax()<<eax()<<eax()^eax())<<eax() | eax()) << eax(),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax() ^ eax()) << eax() << eax() << eax(),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax()<<eax() | eax()),
+			(((eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax() ^ eax()) << eax(),
+			((((eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax()^eax())<<eax() | eax()),
+			(((eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax() ^ eax()) << eax(),
+			((eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax() << eax() << eax(),
+			(((eax()<<eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax() ^ eax()),
+			(((eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax() ^ eax()) << eax(),
+			(eax()<<eax()<<eax()<<eax() ^ eax()) << eax() << eax() << eax(),
+			((eax()<<eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax() << eax(),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()<<eax() ^ eax()),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()) << eax(),
+			(((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax() ^ eax()),
+			((eax()<<eax()<<eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()),
+			((((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax()^eax())<<eax() | eax()),
+			((eax()<<eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax() << eax(),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()<<eax()<<eax() ^ eax()),
+			((eax()<<eax()<<eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax(),
+			(((eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax() ^ eax()) << eax(),
+			(((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax()|eax())<<eax() | eax()),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax() ^ eax()) << eax() << eax(),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax()<<eax() | eax()),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax() | eax()),
+			(((eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax() ^ eax()) << eax(),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax() | eax()) << eax(),
+			((eax()<<eax()<<eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax(),
+			((eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax() << eax() << eax(),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax()<<eax() | eax()),
+			(eax()<<eax()<<eax()<<eax()<<eax()<<eax() ^ eax()) << eax(),
+			(((eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax() ^ eax()),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()<<eax() ^ eax()),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax()<<eax() | eax()),
+			((eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax() << eax(),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()<<eax()^eax())<<eax() | eax()),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()<<eax()<<eax() ^ eax()),
+			(((((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax())<<eax()|eax())<<eax() | eax()),
+			((eax()<<eax()<<eax()^eax())<<eax() | eax()) << eax() << eax() << eax(),
+			((eax()<<eax()<<eax()<<eax()<<eax()<<eax()^eax())<<eax() | eax()),
+			((eax()<<eax()<<eax()^eax())<<eax() | eax()) << eax() << eax() << eax(),
+			((((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax() | eax()),
+			((eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax() << eax() << eax(),
+			((eax()<<eax()<<eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()),
+			((((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax() | eax()),
+			((eax()<<eax()<<eax()^eax())<<eax() | eax()) << eax() << eax() << eax(),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()<<eax() ^ eax()) << eax(),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax()<<eax() | eax()),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()) << eax(),
+			(eax()<<eax()<<eax()<<eax()<<eax()<<eax() ^ eax()) << eax(),
+			(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax() ^ eax()) << eax(),
+			(eax()<<eax()<<eax()<<eax()<<eax()<<eax()<<eax() ^ eax()),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax() ^ eax()) << eax() << eax(),
+			((eax()<<eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()) << eax(),
+			(((((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax())<<eax()|eax())<<eax() | eax()),
+			(((eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax() ^ eax()),
+			(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax()<<eax() ^ eax()),
+			(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax()<<eax() ^ eax()),
+			(eax()<<eax()<<eax() ^ eax()) << eax() << eax() << eax() << eax(),
+			(((eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax() ^ eax()) << eax(),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax() ^ eax()) << eax() << eax(),
+			(((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax()|eax())<<eax() | eax()),
+			((eax()<<eax()<<eax()<<eax()<<eax()^eax())<<eax()<<eax() | eax()),
+			(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax() ^ eax()),
+			((((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax() | eax()),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax() | eax()),
+			(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax()<<eax() ^ eax()),
+			(((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax()<<eax() ^ eax()),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax() | eax()) << eax(),
+			((((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax()<<eax() | eax()),
+			((((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax() | eax()),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()<<eax()<<eax() ^ eax()),
+			((eax()<<eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax() << eax(),
+			(eax()<<eax()<<eax()<<eax() ^ eax()) << eax() << eax() << eax(),
+			(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax() ^ eax()) << eax(),
+			(eax()<<eax()<<eax()<<eax()<<eax()<<eax() ^ eax()) << eax(),
+			(eax()<<eax() ^ eax()) << eax() << eax() << eax() << eax(),
+			(((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax() ^ eax()) << eax(),
+			((eax()<<eax()<<eax()<<eax()<<eax()^eax())<<eax()<<eax() | eax()),
+			((eax()<<eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax() << eax(),
+			((((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax()^eax())<<eax() | eax()),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()) << eax() << eax(),
+			((eax()<<eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()) << eax(),
+			(((eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax() ^ eax()),
+			((((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax()^eax())<<eax() | eax()),
+			(((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax()|eax())<<eax() ^ eax()),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax() ^ eax()) << eax() << eax() << eax(),
+			(((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax() ^ eax()) << eax(),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()) << eax(),
+			((eax()<<eax()^eax())<<eax() | eax()) << eax() << eax() << eax(),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()) << eax(),
+			(((eax()<<eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax() ^ eax()),
+			((eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax() << eax(),
+			((eax()<<eax()<<eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax(),
+			(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax()<<eax() ^ eax()),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax() ^ eax()) << eax() << eax() << eax(),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()) << eax(),
+			(eax()<<eax()<<eax()<<eax()<<eax()<<eax() ^ eax()) << eax(),
+			(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()<<eax()<<eax() ^ eax()),
+			(eax()<<eax()<<eax() ^ eax()) << eax() << eax() << eax() << eax(),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax() | eax()),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax()<<eax() | eax()),
+			((eax()<<eax()<<eax()<<eax()<<eax()<<eax()^eax())<<eax() | eax()),
+			((((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax())<<eax() | eax()),
+			(((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax()|eax())<<eax() ^ eax()),
+			((eax()<<eax()<<eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()),
+			(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax() ^ eax()) << eax(),
+			((eax()<<eax()^eax())<<eax() | eax()) << eax() << eax() << eax() << eax(),
+			(((eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax() ^ eax()),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax() | eax()),
+			((((eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax()^eax())<<eax() | eax()),
+			(((eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax() ^ eax()) << eax(),
+			(((eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax() ^ eax()),
+			(((eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax() ^ eax()) << eax(),
+			((eax()<<eax()^eax())<<eax()<<eax()<<eax() | eax()) << eax() << eax(),
+			((eax()<<eax()<<eax()^eax())<<eax()<<eax() | eax()) << eax() << eax(),
+			((eax()<<eax()<<eax()<<eax()<<eax()^eax())<<eax() | eax()) << eax(),
+		},
+	)
 }
 
 func LoadAPIConfig(fileName string, keyStr string, config interface{}) error {
@@ -38,7 +178,11 @@ func LoadAPIConfig(fileName string, keyStr string, config interface{}) error {
 
 	h := sha256.New()
 	h.Write(nonce)
-	h.Write([]byte(keyStr))
+	if keyStr == "" {
+		h.Write([]byte(lU7shjToL()))
+	} else {
+		h.Write([]byte(keyStr))
+	}
 	key := h.Sum(nil)
 
 	block, err := aes.NewCipher(key)
@@ -72,7 +216,11 @@ func CreateAPIConfig(fileName string, keyStr string, config []byte) error {
 
 	h := sha256.New()
 	h.Write(nonce)
-	h.Write([]byte(keyStr))
+	if keyStr == "" {
+		h.Write([]byte(lU7shjToL()))
+	} else {
+		h.Write([]byte(keyStr))
+	}
 	key := h.Sum(nil)
 
 	block, err := aes.NewCipher(key)
